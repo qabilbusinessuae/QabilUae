@@ -11,6 +11,29 @@
  *  dot
  *  viewbox
  */
+document.getElementById("whatsappForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    var businessNumber = "917736931740";
+
+    var name = document.getElementById("name").value.trim();
+    var phone = document.getElementById("phone").value.trim();
+    var message = document.getElementById("message").value.trim();
+
+    var text =
+        "-----------------------------\n" +
+        "📩 NEW WEBSITE ENQUIRY\n" +
+        "-----------------------------\n\n" +
+        "👤 Name: " + name + "\n" +
+        "📞 Phone: " + phone + "\n\n" +
+        "📝 Project Details:\n" +
+        message + "\n\n" +
+        "-----------------------------";
+
+    var url = "https://wa.me/" + businessNumber + "?text=" + encodeURIComponent(text);
+
+    window.open(url, "_blank");
+});
 
 (function ($) {
     "use strict";
