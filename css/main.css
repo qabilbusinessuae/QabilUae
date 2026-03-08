@@ -1281,7 +1281,7 @@ START: Theme Header CSS
 
 .site_logo .logo {
   display: inline-block;
-  max-width: 136px;
+  max-width: 172px;
   width: 100%;
 }
 
@@ -2588,7 +2588,7 @@ START: Theme Footer CSS
 }
 
 .footer-logo {
-  max-width: 150px;
+  max-width: 172px;
 }
 
 .award-logo-area {
@@ -15276,6 +15276,7 @@ START: Pricing CSS
 
 .pricing-btn {
   overflow: hidden;
+  margin-top: 37px;
   margin-bottom: 37px;
 }
 .pricing-btn a {
@@ -28964,4 +28965,4 @@ START: Blog CSS
   font-size: 20px;
 }
 
-/* !END: Blog CSS *//*# sourceMappingURL=main.css.map */
+/* !END: Blog CSS *//*# sourceMappingURL=main.css.map */s.map */
